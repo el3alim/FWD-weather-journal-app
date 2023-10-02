@@ -27,19 +27,17 @@ This project's objective is to create an asynchronous application, that fetches 
 - create a get function to send the content of the database to the front end, and then clear the database for further requests
 - Create a function in the app.js file to update the user interface with the data recieved from the server
 
-# To run the NodeJS server for internal data routing, open a new terminal and enter the following command:
+## To run the NodeJS server for internal data routing, open a new terminal and enter the following command:
 
 node server.js
 
-# Notes:
+## Notes:
 
 - Make sure you have node on your system, and that express is installed in the projects' directeory before running the server.
 - Press Ctrl+C in the terminal window where the server is running to stop the server.
 - Visit nodejs.org to install NodeJS.
 - To install express, use the terminal command: npm install express
 
-# To stop the server, hit cnrt+c in the teminal on your keyboard.
+## To stop the server, hit cnrt+c in the teminal on your keyboard.
 
-## Note: Due to the API setting restrictions, you need to use and American zipcode for the API to run properly.
-
-(For example: 94111, which is the zip code for the downtown area of San Francisco, California.)
+## Note: Due to the API setting restrictions, you need to use and American zipcode for the API to run properly. For example: 94111, which is the zip code for the downtown area of San Francisco, California.
